@@ -1,0 +1,24 @@
+{
+  "name": "string-hiburan",
+  "version": "1.0.0",
+  "description": "simple api to get some words",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamungkasandono/string-hiburan.git"
+  },
+  "keywords": [
+    "api",
+    "hiburan"
+  ],
+  "author": "pamungkas andono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pamungkasandono/string-hiburan/issues"
+  },
+  "homepage": "https://github.com/pamungkasandono/string-hiburan#readme"
+}
