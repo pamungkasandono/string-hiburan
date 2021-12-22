@@ -1,6 +1,6 @@
 # String Hiburan
 
-[![Rest|Api](https://namespaceit.com/uploads/post/image/1602502828.png)](https://www.google.com/search?q=rest+api&oq=rest+api&aqs=chrome.0.69i59j0i512l9.1155j0j9&sourceid=chrome&ie=UTF-8)
+<!-- [![Rest|Api](https://namespaceit.com/uploads/post/image/1602502828.png)](https://www.google.com/search?q=rest+api&oq=rest+api&aqs=chrome.0.69i59j0i512l9.1155j0j9&sourceid=chrome&ie=UTF-8) -->
 
 <!-- [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png =250x)](https://nodesource.com/products/nsolid) -->
 
@@ -12,10 +12,10 @@ String Hiburan adalah API project gratis. Project ini berisi API sederhana yang 
 
 ### Base Url
 
-| Nama   | Url                                           | Deskripsi     |
-| :----- | :-------------------------------------------- | :------------ |
-| Heroku | [https://string-hiburan.herokuapp.com/][pldb] | `Aktif`       |
-| GitHub | [https://string-hiburan.github.io/][plgh]     | `Tidak Aktif` |
+| Nama   | Url                                     | Deskripsi     |
+| :----- | :-------------------------------------- | :------------ |
+| Heroku | `https://string-hiburan.herokuapp.com/` | `Aktif`       |
+| GitHub | https://string-hiburan.github.io/       | `Tidak Aktif` |
 
 ### End Point
 
