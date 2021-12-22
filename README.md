@@ -12,10 +12,10 @@ String Hiburan adalah API project gratis. Project ini berisi API sederhana yang 
 
 ### Base Url
 
-| Nama   | Url                                     | Deskripsi     |
-| :----- | :-------------------------------------- | :------------ |
-| Heroku | `https://string-hiburan.herokuapp.com/` | `Aktif`       |
-| GitHub | https://string-hiburan.github.io/       | `Tidak Aktif` |
+| Nama   | Url                                   | Deskripsi     |
+| :----- | :------------------------------------ | :------------ |
+| Heroku | https://string-hiburan.herokuapp.com/ | `Aktif`       |
+| GitHub | https://string-hiburan.github.io/     | `Tidak Aktif` |
 
 ### End Point
 
@@ -46,13 +46,13 @@ GET /random
 Filter hasil dengan menambahkan "filter" lalu di ikuti dengan keyword tertentu semisal "makna" dan "sendirian", maka hasil yang keluar yaitu semua kalimat yang menandung kata "makna" dan "sendirian" [buka di browser](https://string-hiburan.herokuapp.com/random?filter=makna,sendirian)
 
 ```HTTP
-GET random?filter=cinta,bucin
+GET /random?filter=cinta,bucin
 ```
 
 Untuk mengecualikan suatu kata bisa dengan menambahkan exclamation mark **`!`** menjadi "!cinta", "!bucin", maka hasil yang keluar akan mengecualikan semua kalimat yang menandung kata "cinta" dan "bucin" [buka di browser](https://string-hiburan.herokuapp.com/random?filter=!cinta,!bucin)
 
 ```HTTP
-GET random?filter=!cinta,!bucin
+GET /random?filter=!cinta,!bucin
 ```
 
 Mendapatkan hasil kalimat dengan panjangan 50 kata [buka di browser](https://string-hiburan.herokuapp.com/random?max=50)
