@@ -14,7 +14,7 @@ String Hiburan adalah API project gratis. Project ini berisi API sederhana yang 
 
 | Nama   | Url                                   | Deskripsi     |
 | :----- | :------------------------------------ | :------------ |
-| Heroku | https://string-hiburan.herokuapp.com/ | `Aktif`       |
+| Heroku | https://string-hiburan.herokuapp.com/ | `Tidak Aktif` |
 | GitHub | https://string-hiburan.github.io/     | `Tidak Aktif` |
 
 ### End Point
