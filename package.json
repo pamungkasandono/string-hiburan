@@ -1,24 +1,33 @@
 {
-  "name": "string-hiburan",
-  "version": "1.0.0",
-  "description": "simple api to get some words",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pamungkasandono/string-hiburan.git"
-  },
-  "keywords": [
-    "api",
-    "hiburan"
-  ],
-  "author": "pamungkas andono",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pamungkasandono/string-hiburan/issues"
-  },
-  "homepage": "https://github.com/pamungkasandono/string-hiburan#readme"
+    "name": "string-hiburan",
+    "version": "1.0.0",
+    "description": "simple api to get some words",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pamungkasandono/string-hiburan.git"
+    },
+    "keywords": [
+        "api",
+        "hiburan"
+    ],
+    "author": "pamungkasandono",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pamungkasandono/string-hiburan/issues"
+    },
+    "homepage": "https://github.com/pamungkasandono/string-hiburan#readme",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "mongoose": "^6.1.6",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15"
+    }
 }
